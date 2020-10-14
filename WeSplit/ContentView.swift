@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        NavigationView{
         Form{
             Section{
             Text("Hello, world!")
@@ -26,6 +27,8 @@ struct ContentView: View {
             Text("Hello, world!")
             Text("Hello, world!")
             }
+        }
+        .navigationBarTitle("Swift UI", displayMode: .inline)
         }
     }
 }
